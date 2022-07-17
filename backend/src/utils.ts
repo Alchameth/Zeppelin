@@ -573,11 +573,11 @@ export function convertMSToDelayString(ms: number): string {
   return result;
 }
 
-export function successMessage(str, emoji = "<:zep_check:650361014180904971>") {
+export function successMessage(str, emoji = "<:zep_check:906897402101891093>") {
   return emoji ? `${emoji} ${str}` : str;
 }
 
-export function errorMessage(str, emoji = "⚠") {
+export function errorMessage(str, emoji = "<:warn2:907942967329824778>") {
   return emoji ? `${emoji} ${str}` : str;
 }
 
